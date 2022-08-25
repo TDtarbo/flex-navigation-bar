@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SL-Tourism</title>
+    <style>
+        *{
+          margin: 0;
+          padding:0;
+        }
+        body{
+          font-family: "Calibri";
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position:top;
+          background-color: rgb(255, 255, 255);
+          min-width: 1000px;
+          }
+        .nav-bar {
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+          padding-inline: 20px;
+          padding-inline-start: 20px;
+          border-bottom: 1px solid gray;
+          box-shadow: 0px 0px 5px;
+        }
+        .nav-bar .btn {
+          display: inline-block;
+          transition: 0.4s;
+        }
+        .nav-bar .active a{
+          font-size: larger;
+          color: rgb(0, 193, 0);
+          font-size: 22px;
+        }
+        .nav-bar a {
+            text-decoration: none;
+            margin-inline: 15px;
+            color: rgb(45, 45, 45);
+            font-size: 20px;
+            transition: 0.4s;
+            
+        }
+        .nav-bar .btn:hover {
+          transition: 0.4s;
+          transform: scale(1.05);
+        }
+
+        .nav-bar .btn a:hover{
+          color: rgb(0, 193, 0);
+        }
+        .footer-content{
+          margin-top: 100vh;
+          text-align: center;
+          box-shadow: 0px 0px 2px grey;
+          padding-block-end: 10px;
+        }
+        .img {
+          width: 50%;
+        }
+        .logo{
+          width: 30%;
+        }
+        .nav{
+          width: 70%;
+        }
+        .name{
+          margin-left: 5%;
+          border-radius: 100px;
+          font-size: 80px;
+          font-family: "Baskerville Old Face";
+          color: white;
+          font-weight: bold;
+          position: absolute;
+          top: 30%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          z-index: 2;
+          width: 80%;
+          padding: 20px;
+          text-align: center;
+        }
+        .background {
+          background-image: linear-gradient(rgba(1, 12, 0, 0.442),rgba(0, 0, 0, 0.344)) , url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAFN3-oRrBYsUywNHtomx3H0T57es0VPK3sY6iIgB2bgtABTrCxcOkyl02bjJ-2aabxtE&usqp=CAU');
+          background-repeat: no-repeat;
+          background-size: cover;
+          filter: blur(2px);
+          height: 200px;
+
+        }
+
+    </style>
+  </head>
+  <body>
+    
+    <div class="nav-bar">
+      <div class="logo">
+        <img class="img" src="./1.png"/> 
+      </div>
+      <div class="nav">
+      <ul>
+        <li class="btn active"><a href="#">Home</a></li>
+        <li class="btn"><a href="#">Travel Ideas</a></li>
+        <li class="btn"><a href="#">Discover Sri-Lanka</a></li>
+        <li class="btn"><a href="#">Tradition</a></li>
+        <li class="btn"><a href="#">Contact us</a></li>
+      </ul>
+      </div>
+    </div>
+    <div class="background">
+      
+    </div>
+    <div class="bg-text">
+      <h1 class="name">Sithara Estate Bungalow</h1>
+    </div>
+    <footer>
+      <div class="footer-content">
+        <h3>Sri-Lanka</h3>
+        <p>
+          Each place, and each smile in Sri Lanka has a story to tell. We have
+          so much to share with you, so come along to our island in paradise!
+        </p>
+        <ul class="icons">
+          <li>
+            <a href="https://www.instagram.com" target="_blank">facebook</a>
+          </li>
+          <li><a href="https://www.youtube.com" target="_blank">youtube</a></li>
+          <li>
+            <a href="https://www.linkedin.com" target="_blank">linkedin-in</a>
+          </li>
+        </ul>
+        <p>copyright @ 2021 OUSL All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
